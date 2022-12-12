@@ -1,10 +1,11 @@
 {-# LANGUAGE DeriveGeneric #-}
 
 module Types (
-    Entry (..),
-    Country (..),
-    Record (..),
-    Records (..)
+    SanitorDetails (..),
+    Ranks (..),
+    SanitorClass (..),
+    States (..)
+    TenureDetails(..)
 ) where
 
 import GHC.Generics
